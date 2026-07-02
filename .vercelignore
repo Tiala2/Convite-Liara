@@ -1,0 +1,15 @@
+.env
+.env.*
+node_modules
+dist
+build
+coverage
+*.log
+vite-*.log
+.git
+.github
+supabase
+README.md
+GO_LIVE.md
+REGRAS_DO_PROJETO.md
+MENSAGEM_CONVITE.md
