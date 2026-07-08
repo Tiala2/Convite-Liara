@@ -78,7 +78,7 @@ addCheck('Usuario vinculado como admin', !admin.error && Boolean(admin.data), ad
 
 const event = await supabase.from('event_settings').select('baby_name,event_date,event_time,address,pix_key').limit(1).single();
 addCheck('Evento configurado', !event.error && event.data?.baby_name === 'Liara', event.error?.message);
-addCheck('Data final correta', event.data?.event_date === '2026-07-26' && event.data?.event_time?.startsWith('13:00'), JSON.stringify(event.data));
+addCheck('Data final correta', event.data?.event_date === '2026-08-02' && event.data?.event_time?.startsWith('14:00'), JSON.stringify(event.data));
 addCheck('Pix real configurado', event.data?.pix_key === '075.650.053-20', event.data?.pix_key);
 
 const gifts = await supabase.from('gifts').select('id,status', { count: 'exact' }).limit(1);

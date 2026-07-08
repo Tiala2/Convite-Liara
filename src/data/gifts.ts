@@ -1,14 +1,14 @@
 ﻿import type { Gift, EventInfo } from '../types';
 
 export const eventInfo: EventInfo = {
-  date: '26 de julho de 2026',
-  isoDate: '2026-07-26T13:00:00',
-  time: '13:00',
-  address: 'Rua Antonio Botelho, 205 - Serrinha, Fortaleza - CE',
-  addressReference: 'Espaço Cecilia Festa E Eventos',
-  addressLink: 'https://maps.app.goo.gl/A15xvqsnNHCGyE1y6',
+  date: '02 de agosto de 2026',
+  isoDate: '2026-08-02T14:00:00',
+  time: '14:00',
+  address: 'Rua Santiago, 236 - Serrinha, Fortaleza - CE',
+  addressReference: 'Espaço de eventos Felix',
+  addressLink: 'https://maps.app.goo.gl/8xsQsqPHuxQkFhiS7',
   addressEmbedUrl:
-    'https://www.google.com/maps?q=Rua+Antonio+Botelho+205+Serrinha+Fortaleza+CE&output=embed',
+    'https://www.google.com/maps?q=Rua+Santiago+236+Serrinha+Fortaleza+CE&output=embed',
   eventName: 'Chá de Bebê da Liara',
   babyName: 'Liara',
   pixKey: '075.650.053-20',

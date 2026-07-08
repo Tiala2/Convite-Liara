@@ -169,12 +169,12 @@ const mapInviteLink = (row: SupabaseInviteLinkRow): InviteLink => ({
 const isPublicUrl = (value: string) => /^https?:\/\//i.test(value);
 
 const mapEventInfo = (row: SupabaseEventSettingsRow): EventInfo => {
-  const date = row.event_date ? new Date(`${row.event_date}T00:00:00`).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }) : '26 de julho de 2026';
-  const time = row.event_time?.slice(0, 5) || '13:00';
+  const date = row.event_date ? new Date(`${row.event_date}T00:00:00`).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }) : '02 de agosto de 2026';
+  const time = row.event_time?.slice(0, 5) || '14:00';
 
   return {
     date,
-    isoDate: `${row.event_date || '2026-07-26'}T${time}:00`,
+    isoDate: `${row.event_date || '2026-08-02'}T${time}:00`,
     time,
     address: row.address || '',
     addressReference: row.address_reference || '',

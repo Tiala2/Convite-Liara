@@ -1377,7 +1377,7 @@ const SettingsView = ({
         <SettingsField label="Nome da bebe" value={form.babyName} onChange={(value) => handleChange('babyName', value)} />
         <SettingsField label="Titulo do evento" value={form.eventName} onChange={(value) => handleChange('eventName', value)} />
         <SettingsField label="Data por extenso" value={form.date} onChange={(value) => handleChange('date', value)} />
-        <SettingsField label="Data ISO" value={form.isoDate} onChange={(value) => handleChange('isoDate', value)} helper="Ex.: 2026-07-26T13:00:00" />
+        <SettingsField label="Data ISO" value={form.isoDate} onChange={(value) => handleChange('isoDate', value)} helper="Ex.: 2026-08-02T14:00:00" />
         <SettingsField label="Horario" value={form.time} onChange={(value) => handleChange('time', value)} />
         <SettingsField label="Referencia do local" value={form.addressReference} onChange={(value) => handleChange('addressReference', value)} />
         <SettingsField label="Endereco" value={form.address} onChange={(value) => handleChange('address', value)} className="md:col-span-2" />
